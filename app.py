@@ -5,10 +5,12 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 import os  
 from langgraph.prebuilt import create_react_agent  
 from langchain_groq import ChatGroq  
+from dotenv import load_dotenv
 
+load_dotenv('.env')
 
-groq_api_key = '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'  
-os.environ["TAVILY_API_KEY"] = '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'  
+groq_api_key = os.getenv('GROQ_API_KEY')
+tavily_api_key = os.getenv('TAVILY_API_KEY')  
 
 # Predefined list of supported model names
 MODEL_NAMES = [
