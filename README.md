@@ -1,6 +1,7 @@
 # LangChain AI Agent
 **Overview**
-The LangChain AI Agent is a Python project that uses the LangChain framework and GROQ's open source models to create an intelligent agent. It can understand and generate human-like text, making it ideal for chatbots, content generation, and task automation.
+The LangChain AI Agent is a Python project that uses the LangChain framework and GROQ's open source models to create an intelligent agent. It can understand and generate human-like text, making it ideal for chatbots, content generation, and task automation. Deployed the AI agent using Docker, creating containerized environments for seamless deployment, scalability, and 
+dependency management across development, testing, and production stages.  
 
 # Features
 **Natural Language Processing (NLP)**: Powered by LangChain and GROQ models.
